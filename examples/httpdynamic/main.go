@@ -1,7 +1,6 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"net/http"
@@ -9,6 +8,8 @@ import (
 	"os/signal"
 	"strconv"
 	"syscall"
+
+	"github.com/goccy/go-json"
 
 	"github.com/graphql-go/graphql"
 )

@@ -2,11 +2,12 @@ package main
 
 import (
 	"database/sql"
-	"encoding/json"
 	"fmt"
+	"log"
+
+	"github.com/goccy/go-json"
 	"github.com/graphql-go/graphql"
 	"github.com/graphql-go/graphql/language/ast"
-	"log"
 )
 
 // NullString to be used in place of sql.NullString

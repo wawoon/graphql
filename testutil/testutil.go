@@ -1,11 +1,12 @@
 package testutil
 
 import (
-	"encoding/json"
 	"fmt"
 	"reflect"
 	"strconv"
 	"testing"
+
+	"github.com/goccy/go-json"
 
 	"github.com/graphql-go/graphql"
 	"github.com/graphql-go/graphql/gqlerrors"

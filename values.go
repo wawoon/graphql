@@ -1,12 +1,13 @@
 package graphql
 
 import (
-	"encoding/json"
 	"fmt"
 	"math"
 	"reflect"
 	"sort"
 	"strings"
+
+	"github.com/goccy/go-json"
 
 	"github.com/graphql-go/graphql/gqlerrors"
 	"github.com/graphql-go/graphql/language/ast"

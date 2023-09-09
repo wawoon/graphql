@@ -21,7 +21,7 @@ The following is a simple example which defines a schema with a single `hello` s
 package main
 
 import (
-	"encoding/json"
+	"github.com/goccy/go-json"
 	"fmt"
 	"log"
 

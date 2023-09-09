@@ -1,11 +1,12 @@
 package graphql_test
 
 import (
-	"encoding/json"
 	"log"
 	"reflect"
 	"testing"
 	"time"
+
+	"github.com/goccy/go-json"
 
 	"github.com/graphql-go/graphql"
 	"github.com/graphql-go/graphql/testutil"

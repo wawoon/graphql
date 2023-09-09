@@ -3,10 +3,11 @@ package testutil
 import (
 	"bytes"
 	"context"
-	"encoding/json"
 	"errors"
 	"strconv"
 	"testing"
+
+	"github.com/goccy/go-json"
 
 	"github.com/graphql-go/graphql"
 )

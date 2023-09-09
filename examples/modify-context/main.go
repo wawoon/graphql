@@ -2,9 +2,10 @@ package main
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
 	"log"
+
+	"github.com/goccy/go-json"
 
 	"github.com/graphql-go/graphql"
 )

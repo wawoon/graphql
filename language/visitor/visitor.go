@@ -1,8 +1,9 @@
 package visitor
 
 import (
-	"encoding/json"
 	"reflect"
+
+	"github.com/goccy/go-json"
 
 	"github.com/graphql-go/graphql/language/ast"
 	"github.com/graphql-go/graphql/language/typeInfo"
